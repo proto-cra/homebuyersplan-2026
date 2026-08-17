@@ -238,6 +238,56 @@ notedlinks:
     <li>The address of the replacement property</li>
 </ul>
 
+<div class="wb-frmvld">
+    <form method="get">
+        <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
+            <p>Select the province you live in:</p>
+            
+            <ul>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>Alberta</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>British Columbia</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>Manitoba</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>New Brunswick</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Newfoundland and Labrador</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Northwest Territories</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>Nova Scotia</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Nunavut</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Ontario</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Prince Edward Island</li>
+                <li data-wb-fieldflow='{"action": "append", "source": "#lst_qc", "live": true}'>Quebec</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>Saskatchewan</li>
+                <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Yukon</li>
+            </ul>
+        </div>
+        
+        <ul id="lst_qc" class="hidden">
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Gatineau</li>
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Laval</li>
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Longueuil</li>
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Montréal</li>
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Québec City</li>
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_sudbury", "live": true}'>Sherbrooke</li>
+            <li data-wb-fieldflow='{"action": "toggle", "toggle": "#address_winnipeg", "live": true}'>Other</li>
+        </ul>
+        
+        <p id="address_sudbury" class="hidden">
+            Canada Revenue Agency <br>
+            Sudbury Tax Centre <br>
+            Pension Workflow Team <br>
+            Post Office Box 20000, Station A <br>
+            Sudbury ON  P3A 5C1 
+        </p>
+        
+        <p id="address_winnipeg" class="hidden">
+            Canada Revenue Agency <br>
+            Winnipeg Tax Centre <br>
+            Pension Workflow Team <br>
+            Post Office Box 14000, Station Main <br>
+            Winnipeg MB  R3C 3M2 
+        </p>
+    </form>
+</div>
+
 <p>Send your letter to one of the following addresses:</p>
 
 <dl class="dl-horizontal">
